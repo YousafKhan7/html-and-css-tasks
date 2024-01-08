@@ -1,0 +1,388 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.side-bar{
+    padding: 43px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex: 0 0 20%;
+    background-color: rgb(253.2, 253.2, 253.2);
+    height: 100vh;
+   
+    
+    
+}
+.side-bar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-bar ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    font-size: 20px;
+  }
+  
+  .side-bar ul li a {
+    text-decoration: none;
+    color: black; 
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .side-bar ul li i {
+    margin-right: 10px; 
+  }
+  
+  .side-bar .nav-items {
+    flex: 1; 
+    margin-left: 15px;
+    
+  }
+  
+.side-bar .logo{
+    padding: 25px;
+    font-size: 20px;
+    align-items: center;
+    height: 10vh;
+    color: red;
+}
+.side-bar .logo span{
+    font-size: larger;
+    align-items: center;
+    color:red;
+}
+
+
+.hero{
+    flex: 0 0 0;
+    margin-left: 20%;
+    background: #eceaff;
+    color: #525252;
+    
+}
+nav{
+    background: rgb(253.2, 253.2, 253.2);
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pic{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+nav ul{
+    width: 100%;
+    text-align: right;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+
+}
+nav ul li a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    margin-right: -19px;
+    padding: 5px 1.5rem;
+    
+    
+}
+#aa:hover{
+    background-color: #000000;
+    color: white;
+   
+}
+
+.sub-menu-wraper{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 250px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    z-index: 1;
+}
+.sub-menu-wraper.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.pic2{
+    width: 45px;
+    border-radius: 50%;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-info h3{
+    font-weight: 500;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link span{
+    font-size: 18px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(3px);
+    
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+
+
+
+
+
+.container{
+    position: absolute;
+    margin-top: .1%;
+    margin-left: 19.8%;
+    background-color: rgb(253.2, 253.2, 253.2);
+
+    
+    width: 79vw;
+    height: 83vh;
+    
+}
+.container .cards{
+    margin-right: -20%;
+    position: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .cards {
+    display: flex; 
+}
+
+.container .cards .row1 {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+    width: 65%;
+}
+
+.container .cards .row2 {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+    width: 65%;
+}
+
+.container .cards .card1
+{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: 17.9%;
+}
+
+.container .cards .card2{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+    margin-right: 20%;
+}
+
+
+.container .cards .card1 p,
+.container .cards .card2 p
+ {
+    margin: 0;
+}
+
+
+
+
+.container .cards .card3
+{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: 17.9%;
+}
+
+.container .cards .card4{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+    margin-right: 20%;
+}
+
+.container .cards .card3 p,
+.container .cards .card4 p
+{
+    margin: 0;
+}
+
+
+
+
+
+.container .cards .card5{
+    
+
+    width: 65vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 70px 0 125px; 
+}
+
+
+
+.sales-person h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 18px;
+    margin-bottom: 1px;
+    color: black;
+    font-size: 15px;
+    
+}
+.total-sales{
+    background: rgb(248, 240, 240);
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.total-sales div{
+    height: 10px;
+    border-radius: 5px;
+    
+    
+}
+.total-sales div span{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(204, 246, 252);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale1{
+    background: yellow;
+    animation: sale1 1s linear forwards;
+}
+.sale2{
+    background: green;
+    animation: sale2 1s linear forwards;
+}
+.sale3{
+    background: blue;
+    animation: sale3 1s linear forwards;
+}
+.sale4{
+    background: salmon;
+    animation: sale4 1s linear forwards;
+}
+
+.sale1 span{
+    border: 1px solid yellow;
+}
+
+.sale2 span{
+    border: 1px solid green;
+}
+
+.sale3 span{
+    border: 1px solid blue;
+}
+
+.sale4 span{
+    border: 1px solid salmon;
+}
+
+@keyframes sale1{
+    100%{
+        width: 17%;
+    }
+}
+
+@keyframes sale2{
+    100%{
+        width: 13%;
+    }
+}
+
+@keyframes sale3{
+    100%{
+        width: 15%;
+    }
+}
+
+@keyframes sale4{
+    100%{
+        width: 20%;
+    }
+}
