@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Sale's Person View
+    </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="side-bar">
+        
+                <div class="logo">
+                   <i class='bx bx-plus-medical'></i>
+                   <span>The Medics</span>
+                </div>
+                
+        
+     <ul>
+
+        <li>
+            <a href="#">
+            <i class='bx bxs-grid-alt' ></i>
+            <span class="nav-items">Dashboard</span>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#">
+            <i class='bx bx-list-check' ></i>
+            <span class="nav-items">Categories</span>
+            </a>
+ 
+        </li>
+        
+        <li>
+            <a href="#">
+            <i class='bx bx-body' ></i>
+            <span class="nav-items">Customers</span>
+            </a>
+         
+        </li>
+        
+        <li>
+            <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="nav-items">Settings</span>
+            </a>
+         
+        </li>
+        
+        <li>
+            <a href="#">
+            <i class='bx bx-headphone'></i>
+            <span class="nav-items">Help</span>
+            </a>
+         
+        </li>
+
+     </ul>
+    </div>
+    
+    <div class="hero">
+        <nav>
+            
+            <ul>
+                <li><a href="#" id="aa">Home</a></li>
+                <li><a href="#" id="aa">About</a></li>
+                <li><a href="#" id="aa">Profile</a></li>
+                
+            </ul>
+            <img src="images/profile.jpeg" class="pic" onclick="toggleMenu()">
+            <div class="sub-menu-wraper" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images/profile.jpeg" class="pic2">
+                        <h2 style="color: black;">Yousaf Khan</h2>
+                    </div>
+                    <hr>
+                    
+
+                    <a href="#" class="sub-menu-link">
+                        <p>Profile Info</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <p>Privacy Setting</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="login.html" class="sub-menu-link">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="cards">
+        <div class="row1">
+            <div class="card1">
+                <p> Today's sell 
+                <br>
+                "1050500$" 
+                </p>
+            </div>
+
+            <div class="card2">
+                <p> Today's Stock 
+                <br>
+                "3577090$" 
+                </p>
+            </div>
+        </div>
+            <div class="row2">
+            <div class="card3">
+                <p> Total sell 
+                <br>
+                "25550000$" 
+                </p>
+            </div>
+
+            <div class="card4">
+                <p> Total Stock 
+                <br>
+                "45055000$" 
+                </p>
+            </div>
+            </div>
+
+            <div class="card5">
+                <div class="sales-person">
+                    <h2>Yousaf Khan</h2>
+                    <div class="total-sales">
+                        <div class="sale1"><span>17%</span></div>
+                    </div>
+
+                    <h2>Asad Khan</h2>
+                    <div class="total-sales">
+                        <div class="sale2"><span>13%</span></div>
+                    </div>
+
+                    <h2>Sanaullah </h2>
+                    <div class="total-sales">
+                        <div class="sale3"><span>15%</span></div>
+                    </div>
+
+                    <h2>Kashan Ahmad</h2>
+                    <div class="total-sales">
+                        <div class="sale4"><span>20%</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script>
+        let subMenu= document.getElementById("subMenu");
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+
+  
+</body>
+</html>
