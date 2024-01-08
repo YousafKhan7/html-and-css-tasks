@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device- width, initial-scale=1.0">
+        <title> Customers Receipt</title>
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Bangers|Roboto'>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+    <div class="receipt">
+        
+        <div class="orderNo">
+            Order# <span id="Order #">71</span>: <span id="Order Name">Medicine Purchased</span>
+        </div>
+        <div class="headerSubTitle">
+            Thank You for Coming to
+        </div>
+        <div class="headerTitle">
+            The Medics
+        </div>
+        <div class="headerSubTitle">
+            A division of The Medics Limited
+        </div>
+        <div class="location">
+            Quetta, Balochistan
+        </div>
+        <div class="date">
+            Monday, 8 Jan 2024 1:00:50
+        </div>
+        <img src="barcode.jpg" id="barcode">
+        <div class="keepIt">
+            Keep Your Receipt
+        </div>
+        <div class="keepItBody">
+            This original receipt is required to pick up any OnDemand items* or for Returns. Undamaged merchandise can be returned for a refund within 24 hours. Faulty goods can be exchanged anytime during this convention while the vendor hall is open. No returns are allowed for OnDemand items except at the discretion of the Medics staff. *Unclaimed on-demand items can be claimed without receipt in the final hours of the convention by describing the order in detail.
+          </div>
+          <hr>
+        <!-- Items Purchased-->
+        <div class="items">
+            <div class="item">
+                <div class="itemRow">
+                    <div class="itemN">Item Name</div>
+                    <div class="ItemName">Abiraterone</div>
+                </div>
+                <div class="itemRow">
+                    
+                    <div class="itemN">Item Price</div>
+                    <div class="itemQuantity">$13.3</div>
+                    
+                </div>
+                  <div class="itemRow">
+                    <div class="itemN">Quantity</div>
+                    <div class="itemQuantity">5</div>
+                  </div>
+                  <div class="itemRow">
+                    <div class="itemN">Total Price</div>
+                    <div class="itemQuantity">$76.8</div>
+                  </div>
+            </div>
+
+            <div class="item">
+                <div class="itemRow">
+                    <div class="itemN">Item Name</div>
+                    <div class="ItemName">Famotidine</div>
+                </div>
+                <div class="itemRow">
+                    
+                    <div class="itemN">Item Price</div>
+                    <div class="itemQuantity">$6</div>
+                    
+                </div>
+                  <div class="itemRow">
+                    <div class="itemN">Quantity</div>
+                    <div class="itemQuantity">9</div>
+                  </div>
+                  <div class="itemRow">
+                    <div class="itemN">Total Price</div>
+                    <div class="itemQuantity">$54</div>
+                  </div>
+            </div>
+            
+        </div>
+        <!--Total-->
+        <div class="flex">
+            <div id="qrcode"></div>
+            <div class="totals">
+              
+                <div class="itemRow">
+                  <div class="Subtotal">Subtotal</div>
+                  <div class="fee">$130.8</div>
+                </div>
+                <div class="itemRow">
+                  
+                  <div class="Subtotal">Credit Card Fee</div>
+                  <div class="fee">$1.68</div>
+                </div>
+              
+              
+                <div class="itemRow">
+                  <div class="Subtotal">Total</div>
+                  <div class="fee">$132.48</div>
+                </div>
+              
+              
+            </div>
+          </div>
+        
+          <div class="footer">
+            <div class="printType">Customer copy</div>
+          </div>
+    </div>
+        
+</body>
+</html>
