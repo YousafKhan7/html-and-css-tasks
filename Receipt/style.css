@@ -1,0 +1,149 @@
+.receipt{
+    
+    width: 100%;
+    height: 90vh;
+    
+    position: relative;
+    border: 1px solid rgb(110, 36, 36)
+}
+
+.orderNo{
+    
+    text-align: left;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    padding-left: 1mm;
+}
+.headerSubTitle{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-top: 3px;
+}
+.headerTitle{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.location{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 3px;
+    margin-bottom: 5px;
+    
+}
+.date{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-left: 1mm;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#barcode{
+    width: 100%;
+    height: 50px;
+    
+    position: relative;
+}
+.keepIt{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 25px;
+    
+}
+.keepItBody{
+    text-align: justify;
+    font-size: 15pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.item{
+    margin-bottom: 1mm;
+    border: 1px solid black;
+}
+.itemRow{
+    display: flex;
+    
+    align-items: baseline;
+}
+.itemRow > div{
+    align-items: baseline;
+}
+
+
+.itemN{
+    font-size: 15px;
+    padding-left: 5px ;
+}
+.ItemName{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+.itemQuantity{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+
+.totals{
+    font-size: 15px;
+    margin-bottom: 1mm;
+    
+}
+.itemRow{
+    font-size: 15px;
+    display: flex;
+    font-size: 10pt;
+    align-items: baseline;
+}
+.itemRow > div{
+    align-items: baseline;
+}
+
+.totals{
+    padding-left: 5px;
+}
+
+
+.Subtotal{
+    padding-left: 5px ;
+    font-size: 15px;
+}
+.fee{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+.printType{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    width: 100%;
+    background: grey;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+   
+
+    
+}
