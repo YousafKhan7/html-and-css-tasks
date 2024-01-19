@@ -1,0 +1,352 @@
+body,h1,h2,h3,p{
+    margin: 0;
+}
+body{
+    background-color: rgb(199, 226, 226);
+}
+
+@media screen and (min-width:400px){
+    body{
+        background-color: white;
+    }
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin-top: 1%;
+    margin-left: 1%;
+    min-height: 150px;
+}
+nav
+{
+    padding: 1em;
+    
+}
+a{
+    
+    text-decoration: none;
+}
+
+.navbar{
+    max-width:100% ;
+    min-height: 115px;
+    border: 2px solid black;
+    
+}
+.navbar img{
+    max-width: 4rem;
+    min-height: 10%;
+    padding: 0.5em;
+}
+
+.icons{
+    float: right;
+   
+   
+}
+.icons a{
+    color: black;
+    padding-right: 30px;
+    
+}
+
+.icons a:hover{
+    color: white;
+    background: black;
+   
+}
+
+.drop{
+   
+ 
+    
+    display: inline-block;
+   
+    
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background: white;
+    padding-top: 1em;
+}
+.dropdown a{
+    
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+}
+.drop:hover .dropdown{
+    display: block;
+    z-index: 1;
+}
+
+.header{
+    
+    margin: 1em;
+    max-width: 100%;
+    min-height: 500px;
+    border: 2px solid black;
+}
+.container{
+    margin: 1em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 450px;
+    border: 1px solid black;
+}
+
+.container .card1{
+    margin-left: 0.5%;
+    margin-top: 1%;
+    display: flex;
+    
+    border: 2px solid black;
+    max-width: 30%;
+    min-height: auto;
+}
+
+@media screen and (min-width: 785px) {
+    .container .card1 {
+       
+      max-height: 200px;
+    }
+  }
+
+ 
+.container .card1 p{
+    align-items: justify;
+    padding: 1em;
+}
+
+.container .card2{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1em;
+    display: flex;
+    border: 2px solid black;
+    max-width: 60%;
+    min-height: 60vh;
+    position: relative;
+    
+}
+
+.container .card2 img{
+    
+    padding-left: 1.5%;
+    width: 95%;
+    min-height: auto;
+    object-fit: cover;
+    padding-bottom: 1%;
+}
+
+
+
+
+.card2 .poem-container {
+    position: absolute;
+
+   
+    text-align: center;
+    width: 80%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    border-radius: 10px;
+    min-height: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+@media screen and (max-width:1260px)
+{
+    .card2 .poem-container{
+        position: absolute;
+        text-align: center;
+        max-width: 88%;
+        background-color: rgba(0, 0, 0, 0.5); 
+    
+        border-radius: 10px;
+        max-height: 100%;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    .card2 h1 {
+        color: rgb(255, 0, 0);
+        font-size: 15px;
+    }
+    
+    .card2 .poem p {
+        
+        font-size: 8px;
+        color: white
+    }
+        .card2 .explanation, .card2 .summary {
+        margin-top: 5px;
+        font-size: 15px;
+        color : white;
+    }
+    
+    .card2 .explanation p, .card2 .summary p {
+        font-size: 8px;
+        color: white;
+    }
+
+}
+
+
+.card2 h1 {
+    color: white;
+}
+
+.card2 .poem p {
+    
+    line-height: 1.6;
+    color: white
+}
+    .card2 .explanation, .card2 .summary {
+    margin-top: 20px;
+    color : white;
+}
+
+.card2 .explanation p, .card2 .summary p {
+    line-height: 1.4;
+    color: white;
+}
+
+
+.thirdcontainer{
+    margin-top: 2%;
+    max-width: 100%;
+    min-height: 400px;
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+
+
+
+.third1{
+    flex: 1;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid black;
+    max-width: 30%;
+
+}
+.third1 img{
+    max-width: 100%;
+    max-height: 70%;
+    
+    object-fit: cover;
+    
+}
+@media screen and (min-width: 880px) {
+    .third1 img {
+      width: 98%; 
+      padding-right: 5px;
+    }
+  }
+
+
+
+@media screen and (max-width : 490px) {
+    .third1 h1 {
+       
+       padding-top: 2%;
+       font-size: 15px;
+       text-align: center;
+       
+      
+    }
+  }
+
+  @media screen and (max-width : 360px) {
+    .third1 h1 {
+       
+       padding-top: 2%;
+       font-size: 10px;
+       text-align: center;
+       
+      
+    }
+  }
+
+  @media screen and (max-width : 600px) {
+    .third1 h1 {
+       
+       padding-top: 2%;
+       font-size: 15px;
+       text-align: center;
+       
+      
+    }
+  }
+
+@media screen and (min-width:601px) {
+    .third1 h1{
+        padding: 2%;
+        
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width : 490px) {
+    .third1 p {
+       
+       padding-top: 2%;
+       
+       text-align: center;
+       
+      
+    }
+  }
+
+  @media screen and (max-width : 360px) {
+    .third1 p {
+       
+       padding-top: 2%;
+       
+       text-align: center;
+       
+      
+    }
+  }
+
+  @media screen and (max-width : 600px) {
+    .third1 p {
+       
+       padding-top: 2%;
+       
+       text-align: center;
+       
+      
+    }
+  }
+
+@media screen and (min-width:601px) {
+    .third1 p{
+        padding: 2%;
+        
+        text-align: center;
+    }
+}
+
+.formcreation{
+    max-width: 98%;
+    min-height: auto;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
